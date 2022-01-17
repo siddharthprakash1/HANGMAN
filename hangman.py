@@ -1,37 +1,4 @@
-'''import random
 
-word_list=["ardvark", "baboon","camel"]
-choosen_word=random.choice(word_list)
-
-print(f'psst,the solution {choosen_word}.')
-display=[]
-word_length=len(choosen_word)
-for letter in range(word_length):
-    display+="_"
-print(display)
-d=[]
-for i in choosen_word:
-    d+=i
-
-for i in range(word_length):
-    guess = input("guess a letter:").lower()
-    for position in range(6):
-        letter = choosen_word[position]
-        if letter == guess:
-            display[position] = letter
-
-    print(display)
-
-    if display==d:
-        print(display)
-        print("you win ")
-        break
-if display != d:
-    print("you lose")
-
-#Step 3
-'''
-#Step 4
 
 import random
 
